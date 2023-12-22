@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: black ;
+}
+.navbar{
+    height: 80px;
+    width: 100vw;
+    
+    display:flex;
+    color: white;
+}
+.netflix-logo{
+    color: rgb(229, 9, 20); /* rgb(229 9 20 / 50%); //pinkcontainer */
+    font-size: 35px;
+    font-weight: 500;
+    height: 25px;
+    width: 45%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    
+    
+}
+.nav-link{
+    height: 32px;
+    width: 45%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 1rem;
+    
+}
+.translate{
+    border: 1.5px solid rgba(255, 255, 255, 0.7);
+    padding: 6px 6px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 4px ;
+    
+    
+    
+}
+.translate i{
+    width: 100%;
+    border: none;
+    font-size: 1.5rem;
+   
+   
+}
+.translate:hover{
+   border: 1.5px solid rgba(255, 255, 255, 1);
+   
+}
+select{
+    border: none;
+    background-color: black;
+    color: white;
+    margin-left: 0px;
+
+}
+.sign{
+    background-color: rgb(248, 7, 7);
+    color: white;
+    margin-left: 1rem;
+    padding: 1rem 0 1rem 0;
+    height: 22px;
+    width: 14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px ;
+}
+button{
+    background-color: inherit;
+    border: none;
+    color: inherit;
+    font-weight: bold;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgba(172, 4, 4, 0.589);
+}
+ /*content*/
+ 
+ .main{
+    background-image: url(./netAsset/netbg.jpg);
+    background-size: cover;
+    height: 700px;
+    width: 100vw;
+    opacity: 1;
+    border-top-left-radius: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: flex-end; */
+    overflow: hidden;
+    
+    
+ }
+ .header2{
+    height: 96px;
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 225px;
+    color: white;
+    font-size: 2.5rem;
+    
+
+ }
+ .main-content{
+   display: flex;
+   flex-direction: column;
+    margin-left: 42px;
+    padding: 20px 12px;
+ }
+ .header2 span{
+    font-size: 1.2rem;
+ }
+ .header2 p{
+    font-size: 1.2rem;
+ }
+ .email-section{
+    color: white;
+    margin-left: 42px;
+    padding-top: 9px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+ }
+ input{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    height: 3.5rem;
+    width: 45%;
+    margin: 5px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px solid rgba(19, 18, 18, 0.84) ;
+ }
+   .button2{
+      border: none;
+    display: flex;
+    align-items: center;
+   
+    color: white;
+    font-weight: 400;
+    height: 2.5rem;
+    margin-left: 0.5rem;
+    padding: 1rem 0 0.75rem 0;
+    
+    
+ }
+ .button2 button{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 4px;
+   font-size: 0.85rem;
+   width: 115px;
+   background-color: rgb(229, 9, 20) ;
+   padding: 1rem;
+}
+
+ hr{
+    border-bottom: 4px solid rgb(226, 43, 83);
+    transform: skewX(30deg);
+    
+ }
+
+ /*box1*/
+
+ /* .box{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-wrap: wrap;
+   background-color: black;
+   color: whitesmoke;
+   height: 400px;
+   width: 100vw;
+   margin-top: 5rem;
+   
+ } */
+
+ /* .card{
+   background-color: indigo;
+   height: 235px;
+   width: 29%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   border-radius: 15px;
+   margin: 1rem;
+
+
+ } */
+.box{
+   display: flex;
+   width: 100vw;
+   height: 300px;
+   color: white;
+   display: inline;
+   
+  
+
+}
+.box >h2{ /*child selector only to select h2 of box*/
+   margin-top: 5rem;
+   margin-left: 2.5rem;
+}
+ .card{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+ }
+ .card-content{
+   background-color: rgba(84, 6, 139, 0.815);
+   color:azure;
+   width: 500px;
+   border-radius: 0.5rem;
+   padding: 2rem 1rem 2.5rem;
+   margin-left: 1.5rem;
+   margin-top: 1.5rem;
+ }
+ .card-content p, h4{
+   opacity: 0.7;
+   padding-top: 0.85rem;
+ }
+ /* @media(max-width: 960px){
+   .card-content{
+      width: 25%;
+      flex-wrap: nowrap;
+      display: inline;
+      
+   } */
+/* } */
+ 
+/*trends*/
+.trend-box{
+   display: flex;
+   width: 100vw;
+   height: 300px;
+   color: white;
+   display: inline;
+   
+}
+.trend-box h2{
+   line-height: 2.5rem;
+   margin-left: 2rem;
+}
+.trend-select{
+   height: 56px;
+   margin-top: 1rem;
+}
+select{
+   border: none;
+   border: 1px solid rgba(245, 245, 245, 0.849);
+   border-radius: 0.2rem ;
+   padding: 0.5rem 2rem 0.5rem 0.75rem;
+   margin: 0.75rem;
+}
+
+.trend-play button{
+   display: inline;
+   height: 120px;
+   border: 1px solid white;
+   border-radius: 1.5rem;
+   
+   
+}
+.trend-play{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+img{
+   border-radius: 1.5rem;
+   margin: 1rem;
+}
+
+
+/*games*/
+.games{
+   width: 80%;
+   height: 176px;
+   color: white;
+   margin-top: 2rem;
+   margin-left: 2rem;
+   
+}
+.game-card{
+   width: 75%;
+   border-radius: 1.5rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   
+   border: 2px solid brown;
+   padding: 1.5rem;
+   
+}
+.game-card h3{
+   display: inline;
+}
+/* .game-c{
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+} */
+.game-card img{
+   width: 35%;
+   
+}
